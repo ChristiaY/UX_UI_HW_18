@@ -1,3 +1,39 @@
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* .logo {
+  height: 50px;
+  width: auto;
+  padding: 1%;
+  text-align: center;
+} */
+
+.nav {
+width: 73%;
+padding: 1%;
+}
+
+.content {
+  display: flex;
+  width: 500px;
+}
+
+/* .heroImg {
+ padding: auto;
+} */
+
+.ul {
+  width: 50%;
+  margin-left: auto;
+}
+
+.footer {
+background:#373738;   
+}
+
+
 /* My UX Skills section coded using CSS flex */
 .flexContainer {
     display: flex;
@@ -16,6 +52,7 @@
   display: flex;
   align-items: center;
 }
+
 /* 
 .item1 {
   
