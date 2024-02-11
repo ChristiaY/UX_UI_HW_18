@@ -1,38 +1,60 @@
+.navigation {
+  background-color: bisque;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+
 .inline-block {
   display: inline-block;
   vertical-align: top;
+  padding-right: 16px;
 }
 
-/* .logo {
-  height: 50px;
-  width: auto;
-  padding: 1%;
-  text-align: center;
-} */
-
-.nav {
-width: 73%;
-padding: 1%;
-}
 
 .content {
   display: flex;
-  width: 500px;
+  align-items: center;
 }
 
-/* .heroImg {
- padding: auto;
+.aboutMe {
+  width: 600px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  padding: 1%;
+}
+
+.workImg {
+  width: 600px;
+  padding: 56px;
+}
+
+/* .nav {
 } */
+
+.content {
+  display: flex;
+}
+
+.heroImg {
+  width: 400px;
+}
 
 .ul {
   width: 50%;
-  margin-left: auto;
+  
 }
 
 .footer {
-background:#373738;   
+background:bisque;   
 }
-
+ .footerImg {
+  width: 80px;
+ }
 
 /* My UX Skills section coded using CSS flex */
 .flexContainer {
@@ -79,6 +101,6 @@ button {
   }
   
   button:hover {
-    background-color: blue;
+    background-color: rgb(77, 77, 203);
   }
 
